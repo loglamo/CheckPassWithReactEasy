@@ -1,0 +1,42 @@
+@import url('https://fonts.google.com/css?family=Roboto Mono');
+@import url('https://fonts.google.com/css?family=Crimson Text');
+p{
+  font-family:"Roboto Mono";
+  font-size:25px;
+}
+body{
+  background-color:#F5D0A9;
+}
+#container{
+  color:#0B3B17;
+  font-size:25px;
+  font-family:"Crimson Text";
+  overflow: hidden;
+}
+.app,
+.rules,
+#container {
+  align-items: center;
+}
+.passed {
+    color: rgba(red, 0.8);
+    transition: 1s all;
+    text-decoration: line-through;
+}
+button {
+  border-radius:10px;
+  background-color:#173B0B;
+  width: 100px;
+  height: 40px;
+  color:#fff;
+  font-family:"Roboto Mono";
+  font-size: 20px;
+}
+input {
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+}
+
+
